@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: url("images/fondo\ shingeki.png");
+    background-attachment: fixed;
+    
+}
+.titulo{
+
+    margin-left: 23%;
+    font-size:50px;
+}
+
+
+#logo{
+    width: 500px;
+    height: 150px;
+    float: left;
+    /* margin-le: 15px; */
+}
+
+
+main{
+    width: 1024px;
+    background:rgba(255, 255, 255, 0.75);
+    margin: 0 auto;
+}
+
+header{
+    padding: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+nav{
+    width: 48%;
+    float: right;
+    margin-top: 15%;
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover{
+    background: red;
+
+}
+.titan{
+    
+    width:50%;
+    float:right;
+    margin: 15px;
+    
+}
+.eren{
+    
+    width:30%;
+    height: 30%;
+    float:right;
+    margin: 15px 25px 15px 15px;
+}
+
+
+#Friends{
+    width:50%;
+    float:left;
+    margin: 15px;
+}
+
+.argumento{
+    margin: 10px 10px 30px 34%;
+    font-size: 40px;
+}
+.argumento-1{
+    width: 95px;
+    margin: 10px 10px 20px 322px;
+    font-size: 40px;
+}
+
+.argumento-content{
+
+    font-size: 25px;
+    margin: 10px;
+}
+.argumento-content-2{
+
+    font-size: 25px;
+    margin: 10px 10px 60px 10px;
+}
+
+.Names{
+    margin: 10px;
+    font-size: 35px;
+}
+
+.secundarios{
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin: 10px;
+    
+}
+.secundario-content{
+    float: left;
+    margin-left: 165px;
+    font-size: 25px;
+}
+.secundario-content-j{
+    float: left;
+    margin-left: 80px;
+    font-size: 25px;
+}
+
+.murallas{
+
+    float: left;
+    width: 50%;
+    height: 20%;
+    margin-left: 22%;
+}   
+
+.footer{
+
+    float: left;
+    padding: 20px;
+    margin-left:35%;
+    border: solid 1px;
+    border-color: black;
+}
+
+.formText{
+
+    font-size:20px;
+    margin-left:100px;
+}
+
+.input{
+
+    margin-left: 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 8px
+}
+.input-1{
+
+    margin-left: 60px;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 8px
+}
+.input-2{
+
+    margin-left: 70px;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 8px
+}
+
+#delete{
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 8px
+}
